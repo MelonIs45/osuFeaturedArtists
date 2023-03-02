@@ -1,15 +1,39 @@
-<li>
-    <div>
-        <span>
-            <span class="playinfo">
-                <img class="playimg" width="100" height="100" href="https://osu.ppy.sh/b/<%=JSON.parse(plays)[`${i}`].beatmapid%>" src="<%=JSON.parse(plays)[i].coverurl%>">
-                <div class="playtext">
-                    <%= check+1 %>. <a target="_blank" href="https://osu.ppy.sh/users/<%=JSON.parse(plays)[`${i}`].userid%>"><%=JSON.parse(plays)[`${i}`].username%></a> | 
-                    <a target="_blank" href="https://osu.ppy.sh/b/<%=JSON.parse(plays)[`${i}`].beatmapid%>"><%=JSON.parse(plays)[`${i}`].artist%> - <%=JSON.parse(plays)[`${i}`].title%> [<%=JSON.parse(plays)[`${i}`].diffname%>]</a>
-                    + <%=JSON.parse(plays)[`${i}`].mods%> | <%=JSON.parse(plays)[`${i}`].pp%>pp
-                </div>
-            </span>
-            <br>
-        </span>
-    </div>
-</li>
+<tr>
+    <td><%= check+1 %></td>
+    <td>
+      <div class="table-beatmap">
+        <a
+          target="_blank"
+          href="https://osu.ppy.sh/b/<%=JSON.parse(plays)[`${i}`].beatmapid%>"
+          ><img height="50" src="<%=JSON.parse(plays)[i].coverurl%>"
+        /></a>
+        <a
+          target="_blank"
+          href="https://osu.ppy.sh/b/<%=JSON.parse(plays)[`${i}`].beatmapid%>"
+          ><%=JSON.parse(plays)[`${i}`].artist%> -
+          <%=JSON.parse(plays)[`${i}`].title%></a
+        >
+      </div>
+    </td>
+    <td><%= JSON.parse(plays)[i].pp %>pp</td>
+    <td><%= JSON.parse(plays)[i].mods %></td>
+    <td>
+      <%= new Date(JSON.parse(plays)[i].timestamp).toLocaleDateString() %>
+    </td>
+    <td>
+      <div class="table-user">
+        <a
+          target="_blank"
+          href="https://osu.ppy.sh/users/<%=JSON.parse(plays)[`${i}`].userid%>"
+          ><img
+            height="50"
+            src="http://s.ppy.sh/a/<%=JSON.parse(plays)[i].userid%>"
+        /></a>
+        <a
+          target="_blank"
+          href="https://osu.ppy.sh/users/<%=JSON.parse(plays)[`${i}`].userid%>"
+          ><%= JSON.parse(plays)[i].username %></a
+        >
+      </div>
+    </td>
+  </tr>

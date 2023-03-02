@@ -1,85 +1,143 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <title>osugame</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-</head>
-<body>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+  </head>
+  <body>
     <div class="container">
-        <h1 id="greeting" class="header"><span class="title">osu! highest pp plays on songs made by<br><img height="80" class="headerimg" src="https://meloons.xyz/osu/files/featuredartist.png"></span></h1>
-        <ul class="plays">
-            <% var check = 0; %>
-            <% for (var i = 0; i < max; i++) { %>
-                <% if (JSON.parse(plays)[i] !== undefined) { %>
-                    <%- include('../partials/play.ejs', {plays: plays, i: i, check: check}); %>
-                    <% check++; %>
-                <% } %>
-            <% } %>
-        </ul>
+      <h1 id="greeting" class="header">
+        <span class="title"
+          >osu! highest pp plays on songs made by<br /><img
+            height="80"
+            class="headerimg"
+            src="https://meloons.xyz/osu/files/featuredartist.png"
+        /></span>
+      </h1>
+      <table>
+        <tr>
+          <th>Play Number</th>
+          <th>Beatmap</th>
+          <th>PP</th>
+          <th>Mods</th>
+          <th>Date set</th>
+          <th>Player</th>
+        </tr>
+        <% var check = 0; %>
+        <% for (var i = 0; i < max; i++) { %> 
+            <% if (JSON.parse(plays)[i] !== undefined) { %>
+                <%- include('../partials/play.ejs', {plays: plays, i: i, check: check}); %>
+                <% check++; %>
+            <% } %> 
+        <% } %>
+      </table>
     </div>
 
     <footer>
-        AINTNOWAY that square image, screw css, doing this made me realise why i hate css
-        <br>
-        Made by Meloons#8078
-        <br>
-        All code on <a href="https://github.com/MelonIs45/osuFeaturedArtists">github</a>, its ugly but it worked, some data is formatted wrongly and thats because i didnt want to spam apis, also why theres only 399 plays
-        <br>
-        Ive just realised that i didnt include accuracies, I actually want to die, if you say anything about this I will personally hate myself.
-        <br>
-        There was some old scores that was still up on osu!track (?) not sure why, but had to delete them and now theres gaps in the data :P
+      AINTNOWAY that square image, screw css, doing this made me realise why i
+      hate css
+      <br />
+      Made by Meloons#8078
+      <br />
+      All code on
+      <a href="https://github.com/MelonIs45/osuFeaturedArtists">github</a>, its
+      ugly but it worked, some data is formatted wrongly and thats because i
+      didnt want to spam apis, also why theres only 399 plays
+      <br />
+      Ive just realised that i didnt include accuracies, I actually want to die,
+      if you say anything about this I will personally hate myself.
+      <br />
+      There was some old scores that was still up on osu!track (?) not sure why,
+      but had to delete them and now theres gaps in the data :P
     </footer>
     <style>
-        @font-face {
-            font-family: exo2;
-            src: url("https://meloons.xyz/osu/files/exo2.ttf");
-        }
-
-        * {
+      @font-face {
         font-family: exo2;
-        }
+        src: url("https://meloons.xyz/osu/files/exo2.ttf");
+      }
 
-        body {
-            background-color: #0d1017;
-        }
+      * {
+        font-family: exo2;
+        color: white;
+      }
 
-        .header {
-            font-size: 46px;
-            color: white;
+      body {
+        background-color: #0d1017;
+      }
+
+      .header {
+        font-size: 46px;
+        color: white;
         text-align: center;
-        }
+      }
 
-        .title {
+      .title {
         font-size: 60px;
-        }
+      }
 
-        span {
-            color: white;
+      span {
+        color: white;
         font-size: 24px;
-        }
+      }
 
-        .playtext {
+      .playtext {
         padding-left: 120px;
-        margin:auto;
-        position:absolute;
-        }
+        margin: auto;
+        position: absolute;
+      }
 
-        .playimg {
-        display:flex;
-        position: absolute
-        }
+      .playimg {
+        display: flex;
+        position: absolute;
+      }
 
-        footer {
+      footer {
         text-align: center;
-        color:white;
-        padding-top:50px;
+        color: white;
+        padding-top: 50px;
         margin-bottom: 25px;
-        }
+      }
+
+      td {
+        font-size: 25px;
+        padding: 5px 10px;
+      }
+
+      td a {
+        padding-right: 10px;
+      }
+
+      .table-beatmap,
+      .table-user {
+        display: flex;
+        align-items: center;
+      }
+
+      tr {
+        border-bottom: 1px solid white;
+      }
+
+      tr:first-child,
+      tr:last-child {
+        border-bottom: none;
+      }
+
+      tr:nth-child(2) {
+        border-top: 1px solid white;
+      }
+
+      img {
+        border-radius: 10px;
+      }
     </style>
-    <script>
-        
-    </script>
-    </body>
+    <script></script>
+  </body>
 </html>
