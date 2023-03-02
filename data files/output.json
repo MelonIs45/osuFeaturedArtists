@@ -1,0 +1,91 @@
+[{"user":7562902,"beatmap_id":644971,"score":159167218,"pp":1371.45,"mods":72,"rank":"SH","score_time":"2022-12-07T13:12:18.000Z","update_time":"2022-12-07T13:14:27.000Z"},{"user":6447454,"beatmap_id":111680,"score":28629823,"pp":1356.97,"mods":88,"rank":"SH","score_time":"2022-12-02T03:35:24.000Z","update_time":"2022-12-02T03:38:05.000Z"},{"user":7562902,"beatmap_id":1695382,"score":12879449,"pp":1353.62,"mods":72,"rank":"SH","score_time":"2023-02-19T04:58:19.000Z","update_time":"2023-02-19T05:00:11.000Z"},{"user":7562902,"beatmap_id":1256809,"score":327759112,"pp":1322.19,"mods":72,"rank":"A","score_time":"2022-11-02T09:09:37.000Z","update_time":"2022-11-02T09:16:37.000Z"},{"user":7562902,"beatmap_id":1001682,"score":226088518,"pp":1275.37,"mods":72,"rank":"A","score_time":"2022-12-11T14:13:34.000Z","update_time":"2022-12-11T14:17:23.000Z"},{"user":7562902,"beatmap_id":3242187,"score":57964737,"pp":1273.3,"mods":72,"rank":"SH","score_time":"2023-02-24T13:39:51.000Z","update_time":"2023-02-24T13:40:19.000Z"},{"user":6447454,"beatmap_id":116128,"score":15639147,"pp":1268.28,"mods":88,"rank":"SH","score_time":"2023-01-01T02:13:44.000Z","update_time":"2023-01-01T03:08:24.000Z"},{"user":7562902,"beatmap_id":809469,"score":103980823,"pp":1262.3,"mods":72,"rank":"SH","score_time":"2022-12-10T14:20:48.000Z","update_time":"2022-12-10T14:23:05.000Z"},{"user":7562902,"beatmap_id":803828,"score":80766358,"pp":1243.37,"mods":72,"rank":"A","score_time":"2023-02-23T07:46:25.000Z","update_time":"2023-02-23T07:50:37.000Z"},{"user":13211727,"beatmap_id":803828,"score":95841448,"pp":1242.92,"mods":72,"rank":"A","score_time":"2023-02-21T23:05:17.000Z","update_time":"2023-02-21T23:29:31.000Z"}]{
+  "user": 7562902,
+  "beatmap_id": 644971,
+  "score": 159167218,
+  "pp": 1371.45,
+  "mods": 72,
+  "rank": "SH",
+  "score_time": "2022-12-07T13:12:18Z",
+  "update_time": "2022-12-07T13:14:27Z"
+}{
+  "user": 6447454,
+  "beatmap_id": 111680,
+  "score": 28629823,
+  "pp": 1356.97,
+  "mods": 88,
+  "rank": "SH",
+  "score_time": "2022-12-02T03:35:24Z",
+  "update_time": "2022-12-02T03:38:05Z"
+}{
+  "user": 7562902,
+  "beatmap_id": 1695382,
+  "score": 12879449,
+  "pp": 1353.62,
+  "mods": 72,
+  "rank": "SH",
+  "score_time": "2023-02-19T04:58:19Z",
+  "update_time": "2023-02-19T05:00:11Z"
+}{
+  "user": 7562902,
+  "beatmap_id": 1256809,
+  "score": 327759112,
+  "pp": 1322.19,
+  "mods": 72,
+  "rank": "A",
+  "score_time": "2022-11-02T09:09:37Z",
+  "update_time": "2022-11-02T09:16:37Z"
+}{
+  "user": 7562902,
+  "beatmap_id": 1001682,
+  "score": 226088518,
+  "pp": 1275.37,
+  "mods": 72,
+  "rank": "A",
+  "score_time": "2022-12-11T14:13:34Z",
+  "update_time": "2022-12-11T14:17:23Z"
+}{
+  "user": 7562902,
+  "beatmap_id": 3242187,
+  "score": 57964737,
+  "pp": 1273.3,
+  "mods": 72,
+  "rank": "SH",
+  "score_time": "2023-02-24T13:39:51Z",
+  "update_time": "2023-02-24T13:40:19Z"
+}{
+  "user": 6447454,
+  "beatmap_id": 116128,
+  "score": 15639147,
+  "pp": 1268.28,
+  "mods": 88,
+  "rank": "SH",
+  "score_time": "2023-01-01T02:13:44Z",
+  "update_time": "2023-01-01T03:08:24Z"
+}{
+  "user": 7562902,
+  "beatmap_id": 809469,
+  "score": 103980823,
+  "pp": 1262.3,
+  "mods": 72,
+  "rank": "SH",
+  "score_time": "2022-12-10T14:20:48Z",
+  "update_time": "2022-12-10T14:23:05Z"
+}{
+  "user": 7562902,
+  "beatmap_id": 803828,
+  "score": 80766358,
+  "pp": 1243.37,
+  "mods": 72,
+  "rank": "A",
+  "score_time": "2023-02-23T07:46:25Z",
+  "update_time": "2023-02-23T07:50:37Z"
+}{
+  "user": 13211727,
+  "beatmap_id": 803828,
+  "score": 95841448,
+  "pp": 1242.92,
+  "mods": 72,
+  "rank": "A",
+  "score_time": "2023-02-21T23:05:17Z",
+  "update_time": "2023-02-21T23:29:31Z"
+}
