@@ -5,7 +5,9 @@
 ### Live build: https://meloons.xyz/osu/fa
 Thanks to [osu!track api](https://github.com/Ameobea/osutrack-api) for initial top 10000 plays :D
 
-And thanks to [osu! api](https://github.com/ppy/osu-api) for getting beatmap information <3
+Thanks to [osu! api](https://github.com/ppy/osu-api) for getting beatmap information <3
+
+Big thanks to [Meiyou](https://github.com/M3IY0U) for the brill table design!
 
 `./data files` folder has a bunch of json data for plays that i used while making this
 
